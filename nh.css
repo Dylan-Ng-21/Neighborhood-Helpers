@@ -10,6 +10,7 @@ section header{
 }
 
 .container{
+    display:flex;
     width:75%;
     margin: 1rem auto;
 }
@@ -24,6 +25,13 @@ section header{
     justify-content: center;
     align-items: stretch;
     align-content: center;
+}
+
+.item{
+    border:solid 1px black;
+    border-radius: 10px;
+    padding: 1rem;
+
 }
 .col{
     flex:1 1 auto;
